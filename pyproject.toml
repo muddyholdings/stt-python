@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sttai"
-version = "0.1.0"
+version = "0.1.1"
 description = "Official Python SDK for STT.ai - Speech-to-Text API"
 readme = "README.md"
 license = "MIT"
@@ -34,8 +34,8 @@ dependencies = [
 [project.urls]
 Homepage = "https://stt.ai"
 Documentation = "https://stt.ai/docs/python-sdk"
-Repository = "https://github.com/sttaigit/stt-python"
-Issues = "https://github.com/sttaigit/stt-python/issues"
+Repository = "https://github.com/muddyholdings/stt-python"
+Issues = "https://github.com/muddyholdings/stt-python/issues"
 
 [tool.setuptools.packages.find]
 include = ["sttai*"]

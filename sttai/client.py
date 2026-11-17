@@ -49,7 +49,7 @@ class STTClient:
         self._session = requests.Session()
         self._session.headers.update({
             "Authorization": "Bearer {}".format(self.api_key),
-            "User-Agent": "stt-ai-python/0.1.0",
+            "User-Agent": "stt-ai-python/0.1.1",
         })
 
     def _handle_response(self, response):

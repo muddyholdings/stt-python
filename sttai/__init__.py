@@ -3,5 +3,5 @@
 from sttai.client import STTClient
 from sttai.exceptions import STTError, RateLimitError, AuthError, CreditError
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __all__ = ["STTClient", "STTError", "RateLimitError", "AuthError", "CreditError"]
